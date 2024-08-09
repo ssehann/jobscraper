@@ -1,0 +1,31 @@
+
+### `.gitignore`
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Flask files
+*.log
+*.sqlite3
+
+# Playwright browser cache
+playwright/.cache/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+tempCodeRunnerFile.py
